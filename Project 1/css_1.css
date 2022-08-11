@@ -1,0 +1,136 @@
+body{
+    margin: 0px;
+    color: aliceblue;
+    padding: 0px;
+    /* width: 150px; */
+    background-image: url("p_1.jpg");
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px ;
+    font-family: 'Open Sans', sans-serif;
+    /* height: 34234px; */
+}
+
+.left{
+    /* border: 4px solid greenyellow; */
+    position: absolute;
+    /* width: 30%; */
+    display: inline-block;
+    left: 34px;
+    top: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.left img{
+    width: 80px;
+}
+.mid{
+    display: block;
+    width: 40%;
+    margin: 50px auto;
+    /* border: 4px solid blue; */
+    top: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.right{
+    position: absolute;
+    right: 34px;
+    display: inline-block;
+    /* border: 4px solid white; */
+    top: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar{
+     display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 24px;
+}
+
+.navbar li a {
+    padding: 34px 23px;
+    text-decoration: none;
+    color: #C850C0;
+    margin: 6px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar li a:hover,
+    .navbar li a.active {
+        
+        color: #4158D0;
+    }
+
+.material-symbols-outlined{
+    padding: 2px 22px 0px;
+    width: 30%;
+    cursor: pointer;
+    /* top: 41px; */
+    margin: 4px 13px;
+}
+.material-symbols-outlined :hover{
+    color: rgb(143, 214, 95);
+
+}
+.login{
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+.login :hover{
+    color:rgb(143, 214, 95);;
+}
+.signup{
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+.signup :hover{
+    color: rgb(143, 214, 95);;
+}
+.btn {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(31, 30, 30);
+}
+
+.container {
+    border: 2px solid white;
+    margin: 106px 80px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+}
+
+.form-group input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+}
