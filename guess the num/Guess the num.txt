@@ -1,0 +1,21 @@
+var guess = 0;
+let r_num = Math.floor(Math.random() * 10);
+
+while(guess_num != r_num){
+  var guess_num = prompt("Enter the num")
+  var guess = guess+1;
+  if(guess_num > r_num){
+    console.log("number is bigger")
+    // guess ++;
+    continue
+  }
+  else if(guess_num < r_num){
+    console.log("The number is smaller ")
+    // guess ++;
+    continue
+  }
+  else{
+    console.log("Win!")
+    break;
+  }
+}
