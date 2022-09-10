@@ -1,0 +1,70 @@
+.center{
+  height: 20px;
+  width: 100px;
+  margin: -20px -50px;
+  position: relative;
+  top: 600px;
+  left: 58%;
+}
+
+.search{
+  height: 20px;
+  width: 100px;
+  margin: -80px -55px;
+  position: relative;
+  top: 540px;
+  left: 50%
+}
+
+.logo{
+  width: 496px;
+    margin: -78px -135px;
+    position: relative;
+    top: 334px;
+    left: 47%;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 27px 84px;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul li {
+  float: right;
+  margin: 0 8px;
+  cursor: pointer;
+  text-underline-position: below;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+ ul li:hover {
+  text-decoration: underline;
+}
+.button {
+  margin: -48px 18px;
+  background-color: #265bbe;
+  border: none;
+  color: white;
+  padding: 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  float: right;
+  cursor: pointer;
+}
+.button:hover{
+  color: black;
+  background-color: white;
+}
+
